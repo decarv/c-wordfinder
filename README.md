@@ -1,15 +1,13 @@
-# Project
+# c-wordfinder
 
-Aggregate words that are spelled with the same letters in a dictionary.
+This C program aggregates all the words of a given file that can be spelled with a inputed set of lettes. The /words folders contains two files with words in English (/words/en) and in Portuguese (/words/pt) that can be used to test the program. The English file was downloaded from [this repository](https://github.com/dwyl/english-words) and the Portuguese file was downloaded from [this](https://www.ime.usp.br/~pf/dicios/index.html) IME-USP link.
 
-1. Iterate through an Portuguese Dictionary;
-2. Sort the letters of a word and store in sortedword;
-3. Store the word based on a hash of the sortedword and store all collisions with a list;
-4. Collisions for a different set of letters should be treated with open addressing;
-5. For each hash entry, there will be all the words that can be written with a combination of n letters;
-6. Save the hashmap in a bit stream @ words.bin.
+I developed this program with efficiency in mind, mainly for learning purposes. In this project I used some of the concepts learned in my Introduction to Algorithms and Data Structures class, such as linked-lists, hashing, hashtables (canonicalization and open-addressing), stacks and backtracking. 
 
-Find all the words for n given letters.
+Other than that I don't think this has much use, unless you would like to cheat on word games.
 
-1. Sort the sequence of letters and find the buckets of the respective words (from 1 to n letters);
-2. Print the words in a table.
+Licensed under GNU GPLv3.
+
+# Installation and Usage
+
+Compile it with `make` and execute the program with `./wf <filepath>`.
