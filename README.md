@@ -2,7 +2,7 @@
 
 This C program finds all the words in a given file that can be spelled with an inputed set of letters.
 
-I developed this program with efficiency in mind, mainly for learning purposes. In this project I used some of the concepts learned in my Introduction to Algorithms and Data Structures class, such as linked-lists, hashing, hashtables (canonicalization and open-addressing), stacks and backtracking. 
+I developed this program with efficiency in mind, mainly for learning purposes. Mainly to implement the idea of Compaction in Hashtables. Also, in this project I used some of the concepts learned in my Introduction to Algorithms and Data Structures class, such as linked-lists, hashing, hashtables, stacks and backtracking. 
 
 Other than that I don't think this has much use, unless you would like to cheat on word games.
 
